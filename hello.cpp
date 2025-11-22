@@ -1,23 +1,23 @@
 #pragma GCC optimize("Ofast")
 #pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,avx2,fma")
 #pragma GCC optimize("unroll-loops")
-#include <stdio.h>
+#include <cstdio>
 #include <bitset>
 #include <vector>
 #include <queue>
 #include <map>
 #include <set>
-#include <string.h>
+#include <cstring>
 #include <string>
 #include <iostream>
 #include <stack>
-#include <ctype.h>
+#include <cctype>
 #include <algorithm>
 #include <deque>
 #include <numeric>
 #include <functional>
-#include <math.h>
-#include <stdlib.h>
+#include <cmath>
+#include <cstdlib>
 
 using namespace std;
 
@@ -66,7 +66,6 @@ int isprime(ll number)
 	}
 	return 1;
 }
-int freqarr[101];
 void solve()
 {
 	cout << "Hello, World!" << ln;
