@@ -68,7 +68,7 @@ int isprime(ll number)
 }
 void solve()
 {
-	cout << "Hello, World!" << ln;
+	cout << "Hello, World! TestC++" << ln;
 	return;
 }
 
