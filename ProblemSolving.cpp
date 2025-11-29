@@ -1,4 +1,4 @@
-#pragma GCC optimize("Ofast")
+//#pragma GCC optimize("Ofast")
 #pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,avx2,fma")
 #pragma GCC optimize("unroll-loops")
 #include <cstdio>
@@ -69,6 +69,9 @@ int isprime(ll number)
 void solve()
 {
 	cout << "Hello, World! TestC++" << ln;
+	string x;
+	getline(cin, x);
+	cout <<x <<ln;
 	return;
 }
 
@@ -76,7 +79,7 @@ int main()
 {
 	//freopen("input.txt","r",stdin);
 	//freopen("output.txt","w",stdout);
-	fast_cin();
+	//fast_cin();
 	//int t;
 	//cin >> t;
 	//while (t--) solve();
